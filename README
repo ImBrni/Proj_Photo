@@ -1,0 +1,14 @@
+# Proj_Photo
+----
+A CLI program that creates .html files for directories and files, to be able to view them in a web browser
+
+## Usage:
+The provided Makefile has 4 actions defined
+
+- Compile all .java files: `make`
+
+- Create a .jar executable: `make create-jar`
+
+- Run created .jar executable: `make run`, you can pass arguments to this by using an `ARGS` environment variable like this: `make run ARGS="..."`
+
+- Cleaning all .class and .jar files: `make clean`
